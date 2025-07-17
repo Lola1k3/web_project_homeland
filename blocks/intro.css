@@ -1,6 +1,5 @@
 .intro {
   max-width: 830px;
-  /*max-height: 482px;*/
   padding-left: 148px;
   padding-top: 92px;
   margin: 0 auto auto 0;
@@ -9,7 +8,7 @@
 }
 
 .intro__title {
-  width: 830px;
+  max-width: 830px;
   height: 116px;
   font-family: "Inter", sans-serif;
   font-weight: 900;
@@ -22,7 +21,7 @@
 }
 
 .intro__subtitle {
-  width: 738px;
+  max-width: 738px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -32,11 +31,11 @@
   color: #ffffff;
   margin: 0;
   padding-top: 40px;
-  align-self: flex-end; /*corrigir*/
+  align-self: flex-end;
 }
 
 .intro__author {
-  width: 732px;
+  max-width: 732px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 24px;
