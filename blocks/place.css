@@ -1,13 +1,4 @@
-/*places dos cards*/
-.places {
-  max-width: 980px;
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-}
-
-/*.place {
+.place {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto 460px auto;
@@ -20,6 +11,7 @@
   margin: 80px 0 0;
 }
 
+/*Titulo*/
 .place__title {
   grid-area: title;
   max-width: 460px;
@@ -31,6 +23,7 @@
   margin: 0;
 }
 
+/*Artista*/
 .place__list {
   grid-area: list;
   list-style: none;
@@ -63,6 +56,7 @@
   color: #fff;
 }
 
+/*Imagem*/
 .place__item {
   grid-area: image;
   width: 100%;
@@ -72,6 +66,7 @@
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0, 5);
 }
 
+/*Parágrafos*/
 .place__paragraphs {
   grid-area: paragraph;
   margin: 0;
@@ -88,6 +83,7 @@
   color: #fff;
 }
 
+/*Botão*/
 .place__NFT-back {
   grid-area: nft;
   max-width: 356px;
@@ -118,6 +114,7 @@
   color: inherit;
 }
 
+/*Tablet (1024px)*/
 @media screen and (max-width: 1024px) {
   .place {
     max-width: 720px;
@@ -154,6 +151,7 @@
   }
 }
 
+/*Mobile (544px)*/
 @media screen and (max-width: 544px) {
   .places {
     max-width: 320px;
@@ -212,4 +210,3 @@
     height: 320px;
   }
 }
-*/
