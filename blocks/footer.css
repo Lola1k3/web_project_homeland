@@ -1,32 +1,32 @@
 .footer {
+  max-width: 166px;
+  width: fit-content;
   display: flex;
   justify-content: center;
-  padding-top: 92px;
-  margin: 0 auto;
-  padding-bottom: 20px;
   align-items: center;
-  flex-wrap: nowrap;
-  width: 100%;
-  text-align: center;
+  margin: 90px auto 25px;
 }
 
 .footer__copyright {
-  height: 16px;
+  line-height: 16px;
   white-space: nowrap;
   margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 1024px) {
   .footer {
-    padding-top: 88px;
+    margin: 18px auto 25px;
   }
 }
 
 @media screen and (max-width: 544px) {
   .footer {
-    padding-top: 64px;
-    text-align: center;
-    align-items: center;
-    width: 100%;
+    margin-top: 64px;
+  }
+
+  .footer__copyright {
+    line-height: 14px;
   }
 }

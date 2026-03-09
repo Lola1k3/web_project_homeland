@@ -1,66 +1,78 @@
 .lead {
+  max-width: 984px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  width: 100%;
+  margin: auto;
 }
 
 .lead__title {
-  margin: 90px auto 0 auto;
-  text-align: center;
-  width: 720px;
-  height: 200px;
+  margin: 0 0 32px 0;
+  max-width: 900px;
+  padding-top: 56px;
   font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  color: #ffffff;
   font-size: 96px;
+  font-weight: 900;
   line-height: 100px;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0;
 }
 
 .lead__subtitle {
-  max-width: 720px;
-  height: 72px;
-  font-family: "Inter";
+  max-width: 710px;
+  width: 100%;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-  color: #ffffff;
+  margin: 0;
 }
 
 .lead__image {
-  height: 615px;
+  max-width: 984px;
+  width: 100%;
   object-fit: cover;
-  margin: 64px auto 0 auto;
+  display: block;
+  margin: 148px auto 148px;
+  /* margin: 64px auto 92px;*/
+  filter: grayscale(100%);
+  background: #000000;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width: 1024px) {
+  .lead {
+    margin: 0;
+  }
   .lead__title {
     max-width: 530px;
     width: 100%;
-    height: 158px;
     font-size: 75px;
     line-height: 79px;
+    padding-top: 30px;
+    margin-bottom: 25px;
   }
-
   .lead__subtitle {
     max-width: 720px;
     width: 100%;
-    height: 72px;
-    font-size: 30px;
-    line-height: 36px;
   }
   .lead__image {
+    max-width: 768px;
     width: 100%;
-    height: auto;
+    margin: 30px auto 90px;
   }
 }
 
 @media screen and (max-width: 544px) {
   .lead__title {
+    padding-top: 25px;
+    margin-bottom: 16px;
     max-width: 228px;
     width: 100%;
-    height: 88px;
     font-size: 40px;
     line-height: 44px;
   }
@@ -68,13 +80,13 @@
   .lead__subtitle {
     max-width: 288px;
     width: 100%;
-    height: 40px;
     font-size: 16px;
     line-height: 20px;
   }
 
   .lead__image {
+    max-width: 320px;
     width: 100%;
-    height: auto;
+    margin: 40px auto 64px;
   }
 }

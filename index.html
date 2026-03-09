@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <meta name="author" content="Lorraine De Barros Nunes Borges" />
     <meta
@@ -13,49 +13,50 @@
       name="keywords"
       content="TripleTen, cidades natais, galeria de arte, projeto web, países, cultura, funcionários, pessoas."
     />
+
     <title>De Pátria para Pátria</title>
+
     <link rel="icon" href="./favicon.ico" />
-    <link rel="stylesheet" href="../vendor/fonts.css" />
-    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="stylesheet" href="pages/index.css" />
   </head>
 
   <body>
     <div class="page">
       <header class="header">
-        <div class="header__logo">
-          <img
-            src="./images/logo.png"
-            alt="Logotipo "
-            class="header__logo-image"
-          />
-        </div>
+        <img
+          src="images/logo.png"
+          alt="Logotipo Galeria"
+          class="header__logo"
+        />
       </header>
 
       <main class="content">
+        <!-- LEAD -->
         <section class="lead">
           <h1 class="lead__title">De Pátria para Pátria</h1>
-          <h2 class="lead__subtitle">
+          <p class="lead__subtitle">
             Uma jornada épica do Kentucky ao Burundi pelo País de Gales e
             Ucrânia
-          </h2>
+          </p>
           <img
-            src="./images/image.png"
+            src="images/image.png"
             alt="Imagem de uma cidade costeira com casas próximas ao mar"
             class="lead__image"
           />
         </section>
 
+        <!-- INTRO -->
         <section class="intro">
-          <h3 class="intro__title">
+          <h2 class="intro__title">
             Conheça um pouco mais sobre a localização dos seus amigos
-          </h3>
-          <blockquote class="intro__subtitle">
-            <p class="intro__text">
-              Cada pessoa é um artista livre, chamado a transformar as
-              condições, pensamentos e estruturas que moldam nossas vidas.
-            </p>
-            <p class="intro__author">— Joseph Beuys</p>
-          </blockquote>
+          </h2>
+
+          <p class="intro__quote-text">
+            Cada pessoa é um artista livre, chamado a transformar as condições,
+            pensamentos e estruturas que moldam nossas vidas.
+          </p>
+          <p class="intro__quote-author">— Joseph Beuys</p>
+
           <p class="intro__description">
             A cidade de TripleTen reuniu profissionais de diversos cantos do
             mundo. Hoje, a Galeria de Arte TripleTen tem o orgulho de apresentar
@@ -68,10 +69,208 @@
             estamos felizes por você ser nosso vizinho.
           </p>
         </section>
+
+        <!-- PHOTO GRID -->
+        <section class="photo-grid">
+          <img
+            src="images/item-1.png"
+            alt="vista da cidade beira a mar"
+            class="photo-grid__item"
+          />
+          <img
+            src="images/item-2.png"
+            alt="vista da cidade com varias casas e um pouco do mar"
+            class="photo-grid__item"
+          />
+          <img
+            src="images/item-3.png"
+            alt=" vista de algumas cidades e uma igreja estilo Russa"
+            class="photo-grid__item"
+          />
+          <img
+            src="images/item-4.png"
+            alt="vista de uma grande cidade"
+            class="photo-grid__item"
+          />
+          <img
+            src="images/item-5.png"
+            alt="Imagem de um campo e algumas casas ao fundo"
+            class="photo-grid__item"
+          />
+          <img
+            src="images/item-6.png"
+            alt="Partes de uma calçada e algumas placas"
+            class="photo-grid__item"
+          />
+          <img
+            src="images/item-7.png"
+            alt="Casa construida com palhas e modelo de cone"
+            class="photo-grid__item"
+          />
+          <img
+            src="images/item-8.png"
+            alt="casas em uma cerra"
+            class="photo-grid__item"
+          />
+        </section>
+
+        <!-- PLACES -->
+        <section class="places">
+          <!-- PLACE 1 -->
+          <section class="place">
+            <h2 class="place__title">Criccieth, País de Gales</h2>
+            <ul class="place__list">
+              <li class="place__url-heading">Artistas</li>
+              <li class="place__artist">Steffan Warren, editor-chefe</li>
+              <li class="place__artist">
+                Kseniya Glagoleva, gerente de projeto
+              </li>
+            </ul>
+            <img
+              src="images/PaísdeGales.png"
+              alt="Vista panorâmica da cidade beira a mar"
+              class="place__item"
+            />
+            <div class="place__paragraphs">
+              <p class="place__paragraph">
+                A ruína medieval do Castelo de Cricieth tem vista para a cidade
+                abaixo de uma rocha que se projeta para o mar. Acredita-se que
+                tenha sido construído por Llewelyn, o Grande, no século XIII,
+                cerca de 900 anos depois, a auto-intitulada
+                <em>Pérola de Gales nas margens de Snowdonia</em> tornou-se um
+                destino turístico popular durante os meses de verão.
+              </p>
+              <p class="place__paragraph">
+                A uma curta caminhada da estrada do castelo, você pode desfrutar
+                do melhor sorvete do mundo no Cadwalader's, cujo ingrediente
+                secreto, segundo rumores, são algas marinhas de origem local.
+                Outra reivindicação à fama é o fato de que Criccieth ganhou o
+                prêmio <em>Wales in Bloom</em> por cinco anos consecutivos. Foi
+                também a casa de David Lloyd George, o único galês a ocupar o
+                cargo de primeiro-ministro do Reino Unido.
+              </p>
+            </div>
+            <div class="place__NFT-back">
+              <a href="#" class="place__NFT">
+                Compre esta obra de arte como NFT
+              </a>
+            </div>
+          </section>
+
+          <!-- PLACE 2 -->
+          <section class="place">
+            <h2 class="place__title">Berea, EUA</h2>
+            <ul class="place__list">
+              <li class="place__url-heading">Artista</li>
+              <li class="place__artist">Travis Turner, Autor e Editor</li>
+            </ul>
+            <img
+              src="images/Berea (1).png"
+              alt="imagem de uma rua na cidade de Berea nos EUA, sendo possível ver algumas arvores na calçada e partes das casas"
+              class="place__item"
+            />
+            <div class="place__paragraphs">
+              <p class="place__paragraph">
+                Berea é uma pequena cidade localizada na parte central do
+                Kentucky. É conhecida por sua forte ligação com as artes e com a
+                educação. A cidade abriga a Berea College, uma instituição que
+                oferece ensino superior gratuito para estudantes com necessidade
+                financeira e que mantém uma tradição de valorização do trabalho
+                manual e da cultura regional.
+              </p>
+              <p class="place__paragraph">
+                Além da faculdade, Berea também é reconhecida por sua produção
+                artesanal, especialmente trabalhos em madeira, cerâmica e
+                tecidos. A cidade preserva um ambiente acolhedor e comunitário,
+                sendo um exemplo de como tradição, educação e cultura podem
+                caminhar juntas no desenvolvimento local.
+              </p>
+            </div>
+            <div class="place__NFT-back">
+              <a href="#" class="place__NFT">
+                Compre esta obra de arte como NFT
+              </a>
+            </div>
+          </section>
+
+          <!-- PLACE 3 -->
+          <section class="place">
+            <h2 class="place__title">Muramvya, Burundi</h2>
+            <ul class="place__list">
+              <li class="place__url-heading">Artista</li>
+              <li class="place__artist">Grevisse Kenguruka, Editor técnico</li>
+            </ul>
+            <img
+              src="images/Muramvya.png"
+              alt="vista da cidade de Burundi com as placas da cidade e ao fundo uma casa branca"
+              class="place__item"
+            />
+            <div class="place__paragraphs">
+              <p class="place__paragraph">
+                Muramvya é uma das 18 províncias do Burundi e possui grande
+                importância histórica para o país. Foi antiga capital do reino
+                do Burundi e ainda preserva marcos culturais relevantes para a
+                identidade nacional.
+              </p>
+              <p class="place__paragraph">
+                O clima é bastante frio em comparação com outras regiões do
+                país, devido à altitude elevada. A região também possui áreas
+                montanhosas e vegetação característica da África Central.
+              </p>
+              <p class="place__paragraph">
+                O Parque Nacional de Kibira, localizado próximo à província, é
+                uma das principais áreas de preservação ambiental do Burundi,
+                abrigando diversas espécies da fauna e flora locais.
+              </p>
+            </div>
+            <div class="place__NFT-back">
+              <a href="#" class="place__NFT">
+                Compre esta obra de arte como NFT
+              </a>
+            </div>
+          </section>
+
+          <!-- PLACE 4 -->
+          <section class="place">
+            <h2 class="place__title">Caçu</h2>
+            <ul class="place__list">
+              <li class="place__url-heading">Artista</li>
+              <li class="place__artist">Lorraine De Barros Nunes Borges</li>
+            </ul>
+            <img
+              src="images/Caçu.png"
+              alt="vista panorâmica da entrada da cidade podendo ver o rio claro e a ponte"
+              class="place__item"
+            />
+            <div class="place__paragraphs">
+              <p class="place__paragraph">
+                A cidade de Caçu, no sudoeste de Goiás, surgiu no final do
+                século XIX com a chegada de famílias pioneiras atraídas pelas
+                terras férteis e pela proximidade do Rio Claro. Entre as
+                famílias fundadoras estão os Borges, Nunes, Silva, Souza e
+                Oliveira, que se dedicaram principalmente à pecuária e à
+                agricultura.
+              </p>
+              <p class="place__paragraph">
+                Com o crescimento do povoado, foi construída uma capela, dando
+                início à organização da comunidade. Em 14 de novembro de 1953,
+                Caçu conquistou sua emancipação política e tornou-se município.
+                Sou descendente de uma das famílias fundadoras de Caçu, o que me
+                enche de orgulho por fazer parte da história e do
+                desenvolvimento da cidade desde seus primeiros anos.
+              </p>
+            </div>
+            <div class="place__NFT-back">
+              <a href="#" class="place__NFT">
+                Compre esta obra de arte como NFT
+              </a>
+            </div>
+          </section>
+        </section>
       </main>
 
       <footer class="footer">
-        <p class="footer__copyright">© 2025. Lorraine De B. Nunes Borges</p>
+        <p class="footer__copyright">© 2025 Lorraine De Barros Nunes Borges</p>
       </footer>
     </div>
   </body>
